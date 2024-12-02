@@ -1,13 +1,4 @@
 mode: count
-github.com/mmcdole/gofeed/translator.go:31.75,33.12 2 50
-github.com/mmcdole/gofeed/translator.go:37.2,59.20 23 49
-github.com/mmcdole/gofeed/translator.go:33.12,35.3 1 1
-github.com/mmcdole/gofeed/translator.go:62.82,80.2 17 14
-github.com/mmcdole/gofeed/translator.go:82.81,83.21 1 49
-github.com/mmcdole/gofeed/translator.go:88.2,88.8 1 49
-github.com/mmcdole/gofeed/translator.go:83.21,85.3 1 14
-github.com/mmcdole/gofeed/translator.go:85.8,85.71 1 35
-github.com/mmcdole/gofeed/translator.go:85.71,87.3 1 0
 github.com/mmcdole/gofeed/translator.go:91.86,93.2 1 49
 github.com/mmcdole/gofeed/translator.go:95.79,96.20 1 49
 github.com/mmcdole/gofeed/translator.go:101.2,101.8 1 49
