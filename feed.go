@@ -50,6 +50,7 @@ type Item struct {
 	Title           string                   `json:"title,omitempty"`
 	Description     string                   `json:"description,omitempty"`
 	Content         string                   `json:"content,omitempty"`
+	Comments        string                   `json:"comments,omitempty"` // RSS only
 	Link            string                   `json:"link,omitempty"`
 	Links           []string                 `json:"links,omitempty"`
 	Updated         string                   `json:"updated,omitempty"`

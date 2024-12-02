@@ -78,6 +78,7 @@ func (t *DefaultRSSTranslator) translateFeedItem(rssItem *rss.Item) (item *Item)
 	item.Image = t.translateItemImage(rssItem)
 	item.Categories = t.translateItemCategories(rssItem)
 	item.Enclosures = t.translateItemEnclosures(rssItem)
+	item.Comments = t.translateItemComments(rssItem)
 	item.DublinCoreExt = rssItem.DublinCoreExt
 	item.ITunesExt = rssItem.ITunesExt
 	item.Extensions = rssItem.Extensions
@@ -323,6 +324,10 @@ func (t *DefaultRSSTranslator) translateItemContent(rssItem *rss.Item) (content 
 
 func (t *DefaultRSSTranslator) translateItemLink(rssItem *rss.Item) (link string) {
 	return rssItem.Link
+}
+
+func (t *DefaultRSSTranslator) translateItemComments(rssItem *rss.Item) (comments string) {
+	return rssItem.Comments
 }
 
 func (t *DefaultRSSTranslator) translateItemLinks(rssItem *rss.Item) (links []string) {
