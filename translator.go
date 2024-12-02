@@ -6,12 +6,12 @@ import (
 	"strings"
 	"time"
 
+	"github.com/KaffeDiem/gofeed/atom"
+	ext "github.com/KaffeDiem/gofeed/extensions"
+	"github.com/KaffeDiem/gofeed/internal/shared"
+	"github.com/KaffeDiem/gofeed/json"
+	"github.com/KaffeDiem/gofeed/rss"
 	"github.com/PuerkitoBio/goquery"
-	"github.com/mmcdole/gofeed/atom"
-	ext "github.com/mmcdole/gofeed/extensions"
-	"github.com/mmcdole/gofeed/internal/shared"
-	"github.com/mmcdole/gofeed/json"
-	"github.com/mmcdole/gofeed/rss"
 	"golang.org/x/net/html"
 )
 
